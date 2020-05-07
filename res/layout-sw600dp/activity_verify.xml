@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hotocorporation.fileshare.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgtound_png"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+       <!-- <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter phone"
+            android:inputType="phone" /> -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter OTP"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.chaos.view.PinView
+            android:id="@+id/pinView"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:itemCount="6"
+            app:itemHeight="48dp"
+            app:itemRadius="10dp"
+            app:lineColor="@android:color/darker_gray"
+            app:viewType="rectangle" />
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:text="Sign In"
+            android:background="#3F51B5"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:gravity="center"
+        android:text="OTP is valid for only  120 Sec"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+repositories {
+    maven { url 'https://jitpack.io' }
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        maven { url 'https://jitpack.io' }
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.2'
+        classpath 'com.google.gms:google-services:4.3.3'
+    }
+}
+
+apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+
+dependencies {
+//BEGIN AWS DEPENDENCIES
+    def aws_version = "2.16.+"
+
+    implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.7.+'
+    implementation "com.amazonaws:aws-android-sdk-s3:$aws_version"
+    implementation ("com.amazonaws:aws-android-sdk-mobile-client:$aws_version") { transitive = true }
+//END AWS DEPENDENCIES
+    implementation 'androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    implementation 'androidx.test:rules:1.1.1'
+    implementation 'androidx.core:core:1.0.0'
+    implementation 'androidx.test.uiautomator:uiautomator:2.2.0'
+
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.chaos.view:pinview:1.3.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.1'
+    implementation 'androidx.navigation:navigation-ui:2.2.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.github.blikoon:QRCodeScanner:0.1.2'
+
+}
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        versionCode 1
+        versionName "1.0.0"
+        // aws-android-sdk-mobile-client depends on aws-android-sdk-auth-ui which requires a minSdkVersion of 23
+        minSdkVersion 23
+        targetSdkVersion 28
+        testInstrumentationRunner = 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+}
+apply plugin: 'com.google.gms.google-services'

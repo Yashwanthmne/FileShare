@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qr_scan_foreground.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\drawable\\ic_qr_scan_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_bucket_item.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\bucket_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\drawable_backgtound_png.png.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\drawable\\backgtound_png.png"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_record_item.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\record_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_download.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\drawable_ic_aws.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\drawable\\ic_aws.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_aws_list.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_aws_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\raw_awsconfiguration.json.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\raw\\awsconfiguration.json"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about_foreground.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\drawable\\ic_about_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout_activity_download_selection.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout\\activity_download_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout_foreground.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\drawable\\ic_logout_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_verify.xml.flat",
+        "source": "C:\\Users\\Yashwanth\\Desktop\\FileShare\\res\\layout-sw600dp\\activity_verify.xml"
+    }
+]

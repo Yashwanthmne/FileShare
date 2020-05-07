@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hotocorporation.demo.FileShare"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:4:5-67
+11-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:5:5-79
+12-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:6:5-65
+13-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:7:5-66
+14-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:7:22-63
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:8:5-60
+16-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:8:19-57
+17
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:10:5-80
+18-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:10:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:11:5-81
+19-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21
+22    <application
+22-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:14:5-58:19
+23        android:name="com.hotocorporation.demo.FileShare.MyApplication"
+23-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:15:9-72
+24        android:allowBackup="true"
+24-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:16:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\d8e6145ebd5f6e1099b739484795a4bd\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@drawable/ic_launcher"
+28-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:17:9-45
+29        android:label="@string/app_name"
+29-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:20:9-41
+30        android:roundIcon="@drawable/ic_launcher"
+30-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:18:9-50
+31        android:supportsRtl="true"
+31-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\e8fc8e0f3431a380bf3a90d79fd87ef3\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:14:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:19:9-40
+34        <activity android:name="com.hotocorporation.demo.FileShare.AwsListActivity" />
+34-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:21:9-23:11
+34-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:22:13-78
+35        <activity
+35-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:24:9-26:57
+36            android:name="com.hotocorporation.demo.FileShare.DownloadActivity"
+36-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:25:13-79
+37            android:label="@string/download_activity" />
+37-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:26:13-54
+38        <activity
+38-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:27:9-29:55
+39            android:name="com.hotocorporation.demo.FileShare.UploadActivity"
+39-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:28:13-77
+40            android:label="@string/upload_activity" />
+40-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:29:13-52
+41        <activity android:name="com.hotocorporation.demo.FileShare.MainActivity" />
+41-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:31:9-32:78
+41-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:32:13-75
+42        <activity
+42-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:35:9-41:20
+43            android:name="com.hotocorporation.demo.FileShare.SplashActivity"
+43-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:35:19-83
+44            android:label="@string/app_name" >
+44-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:36:13-45
+45            <intent-filter>
+45-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:37:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:38:17-69
+46-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:39:17-77
+48-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.hotocorporation.demo.FileShare.VerifyActivity" />
+51-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:43:9-45:11
+51-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:43:19-83
+52        <activity
+52-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:47:9-49:67
+53            android:name="com.hotocorporation.demo.FileShare.DownloadSelectionActivity"
+53-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:48:13-88
+54            android:label="@string/download_selection_activity" />
+54-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:49:13-64
+55
+56        <service
+56-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:51:9-53:38
+57            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+57-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:52:13-93
+58            android:enabled="true" />
+58-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:53:13-35
+59        <service
+59-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:55:9-57:38
+60            android:name="com.hotocorporation.demo.FileShare.MyService"
+60-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:56:13-72
+61            android:enabled="true" />
+61-->C:\Users\Yashwanth\Desktop\FileShare\AndroidManifest.xml:57:13-35
+62
+63        <activity
+63-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+64            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+64-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+65            android:excludeFromRecents="true"
+65-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+66            android:exported="true"
+66-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+67            android:launchMode="singleTask"
+67-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+68            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+68-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+70
+71        <service
+71-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
+75            <meta-data
+75-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+76-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\6a061e696eb124871a098c07f4a015d3\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+78        </service>
+79
+80        <activity
+80-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+84
+85        <provider
+85-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+86            android:name="com.google.firebase.provider.FirebaseInitProvider"
+86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+87            android:authorities="com.hotocorporation.demo.FileShare.firebaseinitprovider"
+87-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+88            android:exported="false"
+88-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+89            android:initOrder="100" />
+89-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+94
+95        <activity android:name="com.blikoon.qrcodescanner.QrCodeActivity" >
+95-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\e8fc8e0f3431a380bf3a90d79fd87ef3\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:9-16:20
+95-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\e8fc8e0f3431a380bf3a90d79fd87ef3\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:19-74
+96        </activity>
+97
+98        <provider
+98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+99            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+100            android:authorities="com.hotocorporation.demo.FileShare.lifecycle-process"
+100-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+101            android:exported="false"
+101-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+102            android:multiprocess="true" />
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Yashwanth\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+103    </application>
+104
+105</manifest>

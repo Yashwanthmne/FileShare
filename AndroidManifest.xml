@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hotocorporation.demo.FileShare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature android:name="android.hardware.camera" />
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name="com.hotocorporation.demo.FileShare.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.hotocorporation.demo.FileShare.AwsListActivity"
+        />
+        <activity
+            android:name="com.hotocorporation.demo.FileShare.DownloadActivity"
+            android:label="@string/download_activity" />
+        <activity
+            android:name="com.hotocorporation.demo.FileShare.UploadActivity"
+            android:label="@string/upload_activity" />
+
+        <activity
+            android:name="com.hotocorporation.demo.FileShare.MainActivity" />
+
+
+        <activity android:name="com.hotocorporation.demo.FileShare.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.hotocorporation.demo.FileShare.VerifyActivity"
+
+        />
+
+        <activity
+            android:name="com.hotocorporation.demo.FileShare.DownloadSelectionActivity"
+            android:label="@string/download_selection_activity" />
+
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+
+        <service
+            android:name="com.hotocorporation.demo.FileShare.MyService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
